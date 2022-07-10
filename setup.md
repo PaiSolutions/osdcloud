@@ -5,9 +5,10 @@ You will need the following
 - Open Internet  
 - Understanding of PowerShell  
   
-Setting up Machine Configuration  
+Setting up Machine   
 - Install Windows ADK (The only feature you need to install is Deployment Tools)  
 - Install Microsoft Deployment Toolkey (MDT)  
-- Run following Powershell Commands  
+
+Run following Powershell Commands to install OSDCloud  
 1. Set-ExecutionPolicy RemoteSigned -Force  
 2. 2.Install-Module OSD -Force  
