@@ -3,7 +3,7 @@
 Setup a new template with WinRE to support Wireless
 New-OSDCloudTemplate -WinRE  
 
-## Get-OSDCloudWorkspace
+### Get-OSDCloudWorkspace
 
 View the current location of your OSD Cloud Workspace.  
 >Get-OSDCloudWorkspace  
@@ -12,7 +12,7 @@ Recommnd you create a new workspace
 >Set-OSDCloudWorkspace ******  
 >New-OSDCloudWorkspace ******
 
-## CloudDriver
+### CloudDriver
 
 Recommend you install following drivers into WinPE
 
@@ -56,8 +56,13 @@ Now run the following command
 >Edit-OSDCloudWinPE -CloudDriver * -WebPSScript *****
 
 ### Create ISO
-Run the following command to create your OSDCloudWinPE ISO
-> 
+Run the following command to create your OSDCloudWinPE ISO in your workspace. 
+> New-OSDCloudISO
 
+## Documentation
+
+[OSDCloud](https://www.osdcloud.com)
+[MDM Tech Space Blog post 1](https://blog.mindcore.dk/2021/03/osdcloud-image-devices-without-need-of-2/)  
+[MDM Tech Space Blog post 2](https://blog.mindcore.dk/2021/04/osdcloud-image-devices-without-need-of/)
 
 https://github.com/OSDeploy/OSD/blob/master/Docs/Start-OSDCloud.md
