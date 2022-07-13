@@ -14,7 +14,7 @@ Recommnd you create a new workspace
 
 We have two options for creating a ZTI install. 
 
-### Create a GutHub ZTI (Zero Touch Install) with CloudDrivers
+### Create a GutHub ZTI (Zero Touch Install)
 
 Create a new PS1 file with following name (up to you) and upload it to your GitHub repository,
 
