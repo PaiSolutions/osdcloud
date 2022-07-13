@@ -53,7 +53,15 @@ Run the following command to create your OSDCloudWinPE ISO in your workspace.
 
 ### Update ISO with local Drivers
 
+if you wish to have drivers on the USB Drive run the following command
+
+Update-OSDCloudUSB -DriverPack 
+
 ### Update ISO with Local Windows Install
+
+if you wish to have Windows 10 Image on the USD Drive run the following command
+
+Update-OSDCloudUSB -DriverPack **** -OSLanguage en-US -OSName 'Windows 10 21H2 x64' -OSEdition Enterprise -OSLicense Volume
 
 ## Documentation
 
