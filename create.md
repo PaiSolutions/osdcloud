@@ -12,20 +12,7 @@ Recommnd you create a new workspace
 >Set-OSDCloudWorkspace ******  
 >New-OSDCloudWorkspace ******
 
-### CloudDriver
-
-Recommend you install following drivers into WinPE
-
->Edit-OSDCloudWinPE -CloudDriver *
-
-- Dell Enterprise Driver Cab
-- HP WinPE 10 Driver Pack
-- Intel Ethernet Drivers
-- Lenovo Dock Drivers (Microsoft Catalog)
-- Nutanix
-- USB Dongles (Microsoft Catalog)
-- VMware (Microsoft Catalog)
-- WiFi (Intel Wireless Drivers) [Requires WinRE]
+We have two options for creating a ZTI install. 
 
 ### Create a GutHub ZTI (Zero Touch Install) with CloudDrivers
 
@@ -55,9 +42,18 @@ Once you have uploaded your file, view the file and click on the Raw icon, then 
 Now run the following command
 >Edit-OSDCloudWinPE -CloudDriver * -WebPSScript *****
 
+### Create a Local ZTI (Zero Touch Install) with CloudDrivers
+
+Run the following command
+Edit-OSDCloudWinPE -CloudDriver * -Startnet "PowerShell.exe Start-OSDCloud -OSLanguage en-US -OSName 'Windows 10 21H2 x64' -OSEdition Enterprise -ZTI ; wpeutil reboot"
+
 ### Create ISO
 Run the following command to create your OSDCloudWinPE ISO in your workspace. 
 > New-OSDCloudISO
+
+### Update ISO with local Drivers
+
+### Update ISO with Local Windows Install
 
 ## Documentation
 
