@@ -45,7 +45,7 @@ Now run the following command
 ### Create a Local ZTI (Zero Touch Install) with CloudDrivers
 
 Run the following command
-Edit-OSDCloudWinPE -CloudDriver * -Startnet "PowerShell.exe Start-OSDCloud -OSLanguage en-US -OSName 'Windows 10 21H2 x64' -OSEdition Enterprise -ZTI ; wpeutil reboot"
+Edit-OSDCloudWinPE -CloudDriver * -Startnet "PowerShell.exe Start-OSDCloud -OSLanguage en-US -OSName 'Windows 10 21H2 x64' -OSEdition Enterprise -OSLicense Volume -ZTI -Restart"
 
 ### Create ISO
 Run the following command to create your OSDCloudWinPE ISO in your workspace. 
