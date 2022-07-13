@@ -42,7 +42,7 @@ Once you have uploaded your file, view the file and click on the Raw icon, then 
 Now run the following command
 >Edit-OSDCloudWinPE -CloudDriver * -WebPSScript *****
 
-### Create a Local ZTI (Zero Touch Install) with CloudDrivers
+### Create a Local ZTI (Zero Touch Install)
 
 Run the following command
 Edit-OSDCloudWinPE -CloudDriver * -Startnet "PowerShell.exe Start-OSDCloud -OSLanguage en-US -OSName 'Windows 10 21H2 x64' -OSEdition Enterprise -OSLicense Volume -ZTI -Restart"
